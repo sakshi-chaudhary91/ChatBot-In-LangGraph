@@ -1,10 +1,15 @@
-# Environment variables
+# Environment variables & Secrets
 .env
 
-# Python virtual environment
+# Python Virtual Environment
 myenv/
 __pycache__/
 *.pyc
 
-# Streamlit cache
+# SQLite Database files (Local chat history)
+*.db
+*.sqlite
+*.sqlite3
+
+# Streamlit cache and local configs
 .streamlit/
